@@ -1,0 +1,272 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+/* 轮播图 */
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+/* 快报 */
+.news {
+    height: 165px;
+    border: 1px #e4e4e4 solid;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px #e4e4e4 dotted;
+    padding: 0 15px;
+
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.more::after {
+    content: '\e9f9';
+    font-family: 'icomoon';
+    margin-left: 4px;
+}
+
+.news-bd {
+    padding: 5px 15px 0px;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background-color: aquamarine;
+    background: url(../upload/bargain.png) -120px -35px;
+}
+
+.bargain {
+    margin-top: 6px;
+}
+/* 今日推荐 */
+.recom{
+    /* background-color: pink; */
+    height: 163px;
+    margin-top: 12px;
+}
+.recom_hd{
+    float: left;
+    background-color: #5c5251;
+    height: 163px;
+    width: 205px;
+    text-align: center;
+    padding-top: 50px;
+}
+.recom_bd{
+    float: left;
+}
+.recom_hd p{
+   color: aliceblue;
+   font-size: 14px;
+}
+.recom_bd ul li img{
+    width: 248.7px;
+    height: 163px;
+}
+.recom_bd ul li{
+    float: left;
+    position: relative;
+}
+.recom_bd ul li:nth-child(-n+3):after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+    top: 10px;
+    right: 0;
+
+}
+/* 猜你喜欢 */
+.you_like{
+    height: 193px;
+    margin-top: 10px;
+    
+}
+.like{
+    height: 30px;
+    line-height: 30px;
+   
+}
+.you_like h4{
+float: left;
+font-size: 16px;
+font-weight:400;
+}
+.you_like p{
+    float: right;
+    margin-right: 35px;
+}
+.linkshop{
+    border: 1px solid #e4e4e4;
+    height: 163px;
+}
+.you_like p::after{
+content: '\e900';
+font-family: 'icomoon';
+margin-left: 3px;
+}
+.linkshop ul li {
+    float: left;
+    margin-left: 13px;
+}
+.linkshop ul{
+    position: relative;
+}
+.linkshop ul li:nth-child(-n+5):after{
+    content: '';
+    width: 1px;
+    height: 120px;
+    background-color: #e4e4e4;
+position: absolute;
+top: 22px;
+
+}
+
+/* 家用电器 */
+.box_hd{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81625;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81625;
+    font-weight:400;
+}
+.tab_list{
+    float: right;
+}
+.tab_list ul li{
+    float: left;
+}
+.tab_list ul li a{
+    margin: 0 15px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.floor .box_bd{
+    height: 361px;
+    
+}
+.tab_list_item>div{
+    float: left;
+}
+.clo_210{
+    position: relative;
+    width: 210px;
+    background-color: #f9f9f9;
+    height: 361px;
+    /* padding-left: 6px; */
+}
+.clo_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+}
+.clo_210 a img{
+    display: block;
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+}
+.clo_329{
+    width: 329px;
+}
+.clo_329 a img {
+    width: 100%;
+    height: 361px;
+    background-color:darkcyan;
+}
+.clo_221{
+    width: 221px;
+    
+}
+.c211_1 a img{
+    width: 100%;
+    height: 180.5px;
+    background-color: aquamarine;
+    vertical-align:top
+}
+.c221_2 a img{
+    width: 100%;
+    height: 361px;
+    background-color: #c81625;
+}
+.clo_219{
+    width: 219px;
+}
+.clo_219 a img{
+    width: 100%;
+    height: 180.5px;
+    background-color: chartreuse;
+    vertical-align:top
+}
+.bb{
+    display: block;
+    border-bottom: 1px solid #fff;
+}
